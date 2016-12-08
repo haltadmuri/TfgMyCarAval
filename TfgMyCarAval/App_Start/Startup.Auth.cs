@@ -58,11 +58,11 @@ namespace TfgMyCarAval
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "12514099051-676hu6ucu7fol1e90f04df5arjhtcmis.apps.googleusercontent.com",
+                ClientSecret = "3Ps36-qBSIsG9r-xYdmQS03C"
+            });
         }
     }
 }
