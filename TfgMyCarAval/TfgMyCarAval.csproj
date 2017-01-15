@@ -373,6 +373,9 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Checkout\Web.config" />
     <Content Include="Account\Web.config" />
+    <None Include="Properties\PublishProfiles\mycaraval - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\mycaraval - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\mycaraval.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
