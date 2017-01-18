@@ -54,9 +54,9 @@ namespace TfgMyCarAval
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1220214111400765",
+               appSecret: "02aa7486a83e40a35843295a73bdd839");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
